@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarStackedChart", "Charts\B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColumnClusteredChart", "Charts\ColumnClusteredChart\ColumnClusteredChart.csproj", "{7FCCC348-0E4F-4D31-825D-02E3B67D1E4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreezePanes", "FreezePanes\FreezePanes.csproj", "{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{7FCCC348-0E4F-4D31-825D-02E3B67D1E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FCCC348-0E4F-4D31-825D-02E3B67D1E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FCCC348-0E4F-4D31-825D-02E3B67D1E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A9F16CC2-814E-4A56-B45E-83197983159D} = {687E7A04-A72E-479E-8960-1CB209E45785}
