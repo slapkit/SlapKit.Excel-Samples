@@ -5,4 +5,5 @@ This repository contains sample projects demonstrating different capabilities of
 ## Index
 
 [Charts](./SlapKit.Excel-Samples/Charts/README.md)
+
 [Freeze Panes](./SlapKit.Excel-Samples/FreezePanes/README.md)
