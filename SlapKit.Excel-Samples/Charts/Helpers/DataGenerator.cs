@@ -76,4 +76,40 @@ public static class DataGenerator
         worksheet.Range("B1:F1").Style.Fill.BackgroundColor = XLColor.Yellow;
         worksheet.Range("B1:F1").Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Center);
     }
+
+    public static void GenerateFruitExpensesData(IXLWorksheet worksheet)
+    {
+        worksheet.Cell(1, 1).Value = "Fruit";
+
+        worksheet.Cell(1, 2).Value = "Apple";
+        worksheet.Cell(1, 3).Value = 168;
+        worksheet.Cell(2, 2).Value = "Banana";
+        worksheet.Cell(2, 3).Value = 194;
+        worksheet.Cell(3, 2).Value = "Orange";
+        worksheet.Cell(3, 3).Value = 120;
+
+        worksheet.Cell(4, 1).Value = "Vegetable";
+
+        worksheet.Cell(4, 2).Value = "Carrot";
+        worksheet.Cell(4, 3).Value = 90;
+        worksheet.Cell(5, 2).Value = "Potato";
+        worksheet.Cell(5, 3).Value = 134;
+        worksheet.Cell(6, 2).Value = "Onion";
+        worksheet.Cell(6, 3).Value = 80;
+
+        worksheet.Cell(7, 1).Value = "Packaged Food";
+
+        worksheet.Cell(7, 2).Value = "Sauce";
+        worksheet.Cell(7, 3).Value = 50;
+        worksheet.Cell(8, 2).Value = "Noodle";
+        worksheet.Cell(8, 3).Value = 78;
+        worksheet.Cell(9, 2).Value = "Milk";
+        worksheet.Cell(9, 3).Value = 197;
+
+        worksheet.Columns(1, 2).AdjustToContents();
+        worksheet.Range("A1:B9").Style.Font.Bold = true;
+        worksheet.Range("A1:C3").Style.Fill.BackgroundColor = XLColor.FromTheme(XLThemeColor.Accent1);
+        worksheet.Range("A4:C6").Style.Fill.BackgroundColor = XLColor.FromTheme(XLThemeColor.Accent2);
+        worksheet.Range("A7:C9").Style.Fill.BackgroundColor = XLColor.FromTheme(XLThemeColor.Accent3);
+    }
 }

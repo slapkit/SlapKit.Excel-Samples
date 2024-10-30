@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColumnClusteredChart", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreezePanes", "FreezePanes\FreezePanes.csproj", "{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColumnClusteredChartWithMultiLevelCategoryLabels", "Charts\ColumnClusteredChartWithMultiLevelCategoryLabels\ColumnClusteredChartWithMultiLevelCategoryLabels.csproj", "{AFAB717B-38C7-4851-A578-0E6DFA914FBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F12B6F1-9BE4-4F04-A97E-5A9BD27FA4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAB717B-38C7-4851-A578-0E6DFA914FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAB717B-38C7-4851-A578-0E6DFA914FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAB717B-38C7-4851-A578-0E6DFA914FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAB717B-38C7-4851-A578-0E6DFA914FBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A9F16CC2-814E-4A56-B45E-83197983159D} = {687E7A04-A72E-479E-8960-1CB209E45785}
@@ -72,5 +78,6 @@ Global
 		{2533892C-50A7-4024-ACC4-98E2E2FA38A6} = {687E7A04-A72E-479E-8960-1CB209E45785}
 		{D0C71CB3-94CD-4DA4-9FF7-7C4FD5DB99BA} = {687E7A04-A72E-479E-8960-1CB209E45785}
 		{7FCCC348-0E4F-4D31-825D-02E3B67D1E4E} = {687E7A04-A72E-479E-8960-1CB209E45785}
+		{AFAB717B-38C7-4851-A578-0E6DFA914FBC} = {687E7A04-A72E-479E-8960-1CB209E45785}
 	EndGlobalSection
 EndGlobal
