@@ -19,3 +19,5 @@ A collection of sample projects demonstrating [SlapKit.Excel](https://slapkit.co
 [Clustered Column chart](./ColumnClusteredChart)
 
 [Clustered Column chart with Multi-level Category labels](./ColumnClusteredChartWithMultiLevelCategoryLabels)
+
+[Box and Whisker chart](./BoxAndWhiskerChart)

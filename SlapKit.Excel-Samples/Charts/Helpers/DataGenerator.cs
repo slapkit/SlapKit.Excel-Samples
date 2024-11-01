@@ -112,4 +112,92 @@ public static class DataGenerator
         worksheet.Range("A4:C6").Style.Fill.BackgroundColor = XLColor.FromTheme(XLThemeColor.Accent2);
         worksheet.Range("A7:C9").Style.Fill.BackgroundColor = XLColor.FromTheme(XLThemeColor.Accent3);
     }
+
+    public static void GenerateSchoolCoursesData(IXLWorksheet worksheet)
+    {
+        worksheet.Cell(1, 1).Value = "Course";
+        worksheet.Cell(1, 2).Value = "School A";
+        worksheet.Cell(1, 3).Value = "School B";
+        worksheet.Cell(1, 4).Value = "School C";
+
+        worksheet.Cell(2, 1).Value = "English";
+        worksheet.Cell(2, 2).Value = 63;
+        worksheet.Cell(2, 3).Value = 53;
+        worksheet.Cell(2, 4).Value = 45;
+
+        worksheet.Cell(3, 1).Value = "Physics";
+        worksheet.Cell(3, 2).Value = 61;
+        worksheet.Cell(3, 3).Value = 55;
+        worksheet.Cell(3, 4).Value = 65;
+
+        worksheet.Cell(4, 1).Value = "English";
+        worksheet.Cell(4, 2).Value = 63;
+        worksheet.Cell(4, 3).Value = 50;
+        worksheet.Cell(4, 4).Value = 65;
+
+        worksheet.Cell(5, 1).Value = "Math";
+        worksheet.Cell(5, 2).Value = 62;
+        worksheet.Cell(5, 3).Value = 51;
+        worksheet.Cell(5, 4).Value = 64;
+
+        worksheet.Cell(6, 1).Value = "English";
+        worksheet.Cell(6, 2).Value = 46;
+        worksheet.Cell(6, 3).Value = 53;
+        worksheet.Cell(6, 4).Value = 66;
+
+        worksheet.Cell(7, 1).Value = "English";
+        worksheet.Cell(7, 2).Value = 58;
+        worksheet.Cell(7, 3).Value = 56;
+        worksheet.Cell(7, 4).Value = 67;
+
+        worksheet.Cell(8, 1).Value = "Math";
+        worksheet.Cell(8, 2).Value = 60;
+        worksheet.Cell(8, 3).Value = 51;
+        worksheet.Cell(8, 4).Value = 67;
+
+        worksheet.Cell(9, 1).Value = "Math";
+        worksheet.Cell(9, 2).Value = 62;
+        worksheet.Cell(9, 3).Value = 53;
+        worksheet.Cell(9, 4).Value = 66;
+
+        worksheet.Cell(10, 1).Value = "English";
+        worksheet.Cell(10, 2).Value = 63;
+        worksheet.Cell(10, 3).Value = 54;
+        worksheet.Cell(10, 4).Value = 64;
+
+        worksheet.Cell(11, 1).Value = "English";
+        worksheet.Cell(11, 2).Value = 63;
+        worksheet.Cell(11, 3).Value = 52;
+        worksheet.Cell(11, 4).Value = 67;
+
+        worksheet.Cell(12, 1).Value = "Physics";
+        worksheet.Cell(12, 2).Value = 60;
+        worksheet.Cell(12, 3).Value = 56;
+        worksheet.Cell(12, 4).Value = 64;
+
+        worksheet.Cell(13, 1).Value = "English";
+        worksheet.Cell(13, 2).Value = 60;
+        worksheet.Cell(13, 3).Value = 56;
+        worksheet.Cell(13, 4).Value = 67;
+
+        worksheet.Cell(14, 1).Value = "Math";
+        worksheet.Cell(14, 2).Value = 61;
+        worksheet.Cell(14, 3).Value = 56;
+        worksheet.Cell(14, 4).Value = 45;
+
+        worksheet.Cell(15, 1).Value = "Math";
+        worksheet.Cell(15, 2).Value = 63;
+        worksheet.Cell(15, 3).Value = 58;
+        worksheet.Cell(15, 4).Value = 64;
+
+        worksheet.Cell(16, 1).Value = "English";
+        worksheet.Cell(16, 2).Value = 59;
+        worksheet.Cell(16, 3).Value = 54;
+        worksheet.Cell(16, 4).Value = 65;
+
+        worksheet.Range("A1:A16").Style.Font.Bold = true;
+        worksheet.Range("B1:D1").Style.Font.Bold = true;
+        worksheet.Range("A1:D1").Style.Fill.BackgroundColor = XLColor.Yellow;
+        worksheet.Range("B1:D1").Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Center);
+    }
 }
