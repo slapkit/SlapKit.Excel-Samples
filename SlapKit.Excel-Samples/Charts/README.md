@@ -4,16 +4,18 @@ A collection of sample projects demonstrating [SlapKit.Excel](https://slapkit.co
 
 ## Index
 
-[3-D Stacked Area chart](./Area3DStackedChart/README.md)
+[3-D Stacked Area chart](./Area3DStackedChart)
 
-[Stacked Area chart](./AreaStackedChart/README.md)
+[Stacked Area chart](./AreaStackedChart)
 
-[3-D 100% Stacked Bar chart](./Bar3D100StackedChart/README.md)
+[3-D 100% Stacked Bar chart](./Bar3D100StackedChart)
 
-[Stacked Bar chart](./BarStackedChart/README.md)
+[Stacked Bar chart](./BarStackedChart)
 
-[3-D Column chart](./Column3DChart/README.md)
+[3-D Column chart](./Column3DChart)
 
-[3-D Clustered Column chart](./Column3DClusteredChart/README.md)
+[3-D Clustered Column chart](./Column3DClusteredChart)
 
-[Clustered Column chart](./ColumnClusteredChart/README.md)
+[Clustered Column chart](./ColumnClusteredChart)
+
+[Clustered Column chart with Multi-level Category labels](./ColumnClusteredChartWithMultiLevelCategoryLabels)
