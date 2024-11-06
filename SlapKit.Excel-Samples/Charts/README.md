@@ -21,3 +21,11 @@ A collection of sample projects demonstrating [SlapKit.Excel](https://slapkit.co
 [Clustered Column chart with Multi-level Category labels](./ColumnClusteredChartWithMultiLevelCategoryLabels)
 
 [Box and Whisker chart](./BoxAndWhiskerChart)
+
+[Contour chart](./ContourChart)
+
+[Wireframe Contour chart](./ContourWireframeChart)
+
+[3-D Surface chart](./SurfaceChart)
+
+[Wireframe 3-D Surface chart](./SurfaceWireframeChart)
